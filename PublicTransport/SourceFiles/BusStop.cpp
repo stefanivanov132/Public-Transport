@@ -1,4 +1,4 @@
-#include "BusStop.h"
+#include "../PublicTransport/Headers/BusStop.h"
 
 BusStop::BusStop(const std::string& busStopName) : busStopName(busStopName) {}
 
