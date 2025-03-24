@@ -1,4 +1,4 @@
-#include "HelperFunctions.h"
+#include "../Headers/HelperFunctions.h"
 
 void showCaseWholeGraph(TransportGraph& graph)
 {
