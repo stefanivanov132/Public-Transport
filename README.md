@@ -24,7 +24,13 @@ This C++ project simulates a public transport system where users can calculate o
 ```
 ## CSV Files Format
 ```
-├── BusesWithStops.csv
+BusesWithStops.csv - CSV File consisting of routes for every bus in the following format:
+├── Bus Number,First Bus Stop,Second Bus Stop,Third Bus Stop,...
+       94,Seminariqta,Detski Qsli,Hristo Botev,Detski Dom, ...
+
+TimeTable.csv - CSV File consisting of schedules for every bus passing through the current bus stop in the following format:
+├── Bus Stop Name,Bus Number,Time1,Time2,Time3,...,TimeN
+       Seminariqta,413,361,375,392,394,416,421,426,435,453 ...
 ```
 
 ## How It Works
