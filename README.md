@@ -22,6 +22,10 @@ This C++ project simulates a public transport system where users can calculate o
 ├── BusesWithStops.csv      # Required input file with bus routes
 ├── TimeTable.csv           # Required input file with bus schedules
 ```
+## CSV Files Format
+```
+├── BusesWithStops.csv
+```
 
 ## How It Works
 1. **Deserialization**: Loads bus stop names, routes, and schedules from CSV files.
