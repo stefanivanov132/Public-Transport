@@ -1,4 +1,4 @@
-#include "TransportGraph.h"
+#include "../Headers/TransportGraph.h"
 
 void TransportGraph::validateFiles(std::ifstream& busesWithStops, std::ifstream& timeTable)
 {
