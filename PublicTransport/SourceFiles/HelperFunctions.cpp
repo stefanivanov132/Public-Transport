@@ -1,4 +1,4 @@
-#include "HelperFunctions.h"
+#include "../Headers/HelperFunctions.h"
 
 void printShortestTimePath(unsigned shortestTime, unsigned startTime, const std::string& startBusStopName, const std::string& endBusStopName, const std::vector<vertexAndDistancePair>& path)
 {
